@@ -5,46 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        h1, h2 {
-            margin-bottom: 20px;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-        }
-        .column {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .column h3 {
-            margin-bottom: 15px;
-            text-decoration: underline;
-        }
-        .link-button {
-            padding: 10px 20px;
-            font-size: 16px;
-            text-decoration: none;
-            color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 220px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .link-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>UMPSA (P) PARCEL CENTER - Dashboard (SEM 2 24/25)</h1>
@@ -57,23 +18,29 @@
             <a class="link-button" href="https://forms.gle/Zc2ZajvbXLeVLpoA6" target="_blank">Student Data Registration Form</a>
         </div>
         
-        <!-- Couriers Column -->
+        <!-- Couriers Column Split into Two -->
         <div class="column">
             <h3>Couriers</h3>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1mI4kyLYKSRhiXQ5EfZDHAN3kodrMyUD-K3Azgelr4I0/edit?usp=drive_link" target="_blank">SKYNET</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1RgqopcO2pxIXkzkKSyYHIfbjaCXvtnamVZShJ1HjYeU/edit?usp=drive_link" target="_blank">SHOPEE</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1JgU3vIJf9k4i93KmfEp2-uf9R42KvdFE6svB_MTeA_o/edit?usp=drive_link" target="_blank">POSLAJU</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1eCqwHcXSCs0Ses7RUt36n4yOs5K0eSnquFn-Da_nB58/edit?usp=drive_link" target="_blank">NINJAVAN</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1aBKyLvI8L_O3zIWVSx68eTCJR6CZcnjr2FcffwHtsd0/edit?usp=drive_link" target="_blank">PGEON</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1Sy6mDxhwpz5iUT-0CXOZSa68eiLMBnYec8PMMVct318/edit?usp=drive_link" target="_blank">LAZADA</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1vR-TxJogXw_quuYdywRP81sTH5gNXnYYAkXmGsEv2h0/edit?usp=drive_link" target="_blank">LINECLEAR</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1Y_XQQvyp-m2l3FVjyO06oRzbpRIwMnG5hmjXwUnIgHI/edit?usp=drive_link" target="_blank">GDEX</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1bRrgUhmXplOt8SHjN8riOKsY9nB8g4-0vLvfkUOXvws/edit?usp=drive_link" target="_blank">JNT</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1y1HcZd4XvMs1CEWs1vOI0IzwF28wFaILQJJYFK7Z_q0/edit?usp=drive_link" target="_blank">FLASH</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1mUuNF0z2a10vuym5f-JkqPD-f3rLKdRSB5BisbLnIOw/edit?usp=drive_link" target="_blank">DHL</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1xInAWllTnE4A-uzyE7q0fM0NIcKaQso4GOAFgqUchkc/edit?usp=drive_link" target="_blank">CITYLINK</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1x-cBSQyReVn4VnzkBSSQmiraIrgo_E7KJXAAclqMdK4/edit?usp=drive_link" target="_blank">ABX</a>
-            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1IF6Nm2sfbbsECd1ygNeIqjeVznXc-t77CO0o5bWAnak/edit?usp=drive_link" target="_blank">BEST</a>
+            <div class="courier-columns">
+                <div class="courier-subcolumn">
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1mI4kyLYKSRhiXQ5EfZDHAN3kodrMyUD-K3Azgelr4I0/edit?usp=drive_link" target="_blank">SKYNET</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1RgqopcO2pxIXkzkKSyYHIfbjaCXvtnamVZShJ1HjYeU/edit?usp=drive_link" target="_blank">SHOPEE</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1JgU3vIJf9k4i93KmfEp2-uf9R42KvdFE6svB_MTeA_o/edit?usp=drive_link" target="_blank">POSLAJU</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1eCqwHcXSCs0Ses7RUt36n4yOs5K0eSnquFn-Da_nB58/edit?usp=drive_link" target="_blank">NINJAVAN</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1aBKyLvI8L_O3zIWVSx68eTCJR6CZcnjr2FcffwHtsd0/edit?usp=drive_link" target="_blank">PGEON</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1Sy6mDxhwpz5iUT-0CXOZSa68eiLMBnYec8PMMVct318/edit?usp=drive_link" target="_blank">LAZADA</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1vR-TxJogXw_quuYdywRP81sTH5gNXnYYAkXmGsEv2h0/edit?usp=drive_link" target="_blank">LINECLEAR</a>
+                </div>
+                <div class="courier-subcolumn">
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1Y_XQQvyp-m2l3FVjyO06oRzbpRIwMnG5hmjXwUnIgHI/edit?usp=drive_link" target="_blank">GDEX</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1bRrgUhmXplOt8SHjN8riOKsY9nB8g4-0vLvfkUOXvws/edit?usp=drive_link" target="_blank">JNT</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1y1HcZd4XvMs1CEWs1vOI0IzwF28wFaILQJJYFK7Z_q0/edit?usp=drive_link" target="_blank">FLASH</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1mUuNF0z2a10vuym5f-JkqPD-f3rLKdRSB5BisbLnIOw/edit?usp=drive_link" target="_blank">DHL</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1xInAWllTnE4A-uzyE7q0fM0NIcKaQso4GOAFgqUchkc/edit?usp=drive_link" target="_blank">CITYLINK</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1x-cBSQyReVn4VnzkBSSQmiraIrgo_E7KJXAAclqMdK4/edit?usp=drive_link" target="_blank">ABX</a>
+                    <a class="link-button" href="https://docs.google.com/spreadsheets/d/1IF6Nm2sfbbsECd1ygNeIqjeVznXc-t77CO0o5bWAnak/edit?usp=drive_link" target="_blank">BEST</a>
+                </div>
+            </div>
         </div>
 
         <!-- Tools Column -->
