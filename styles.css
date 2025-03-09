@@ -43,16 +43,22 @@ h1, h2 {
     background-color: #0056b3;
 }
 
-/* Added styles for splitting the Couriers column */
+/* Updated styles for splitting the Couriers column */
 .couriers-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .couriers-column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 45%; /* Adjust width to fit two columns */
+}
+
+.couriers-column .courier-item {
+    margin-bottom: 10px;
 }
